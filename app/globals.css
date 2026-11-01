@@ -36,3 +36,10 @@ body{font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
 .leagues h2{max-width:730px}
 @media(max-width:900px){.cards{grid-template-columns:repeat(3,1fr)}.heroTopics{padding-left:5%;padding-right:5%}}
 @media(max-width:650px){.header{height:auto}.hero{min-height:620px;background-position:60% center}.heroInner{padding-top:75px}.hero h1{font-size:49px}.heroTopics{gap:14px}.cards{grid-template-columns:repeat(2,1fr)}.cardArt{height:125px}.cardBody{padding:34px 12px 18px}.eventImage{min-height:430px}.join{background-position:65% center}.leagues{background-image:linear-gradient(90deg,#f8f7f1f5,#f8f7f1c9),url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80')}}
+
+
+/* Hero with mountaineers carrying backpacks; replace with approved original asset when available */
+.hero{background-image:linear-gradient(90deg,rgba(0,16,22,.84) 0%,rgba(0,16,22,.48) 48%,rgba(0,16,22,.10) 100%),url('https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=2400&q=88')!important;background-size:cover;background-position:center 52%}
+.eventImage{background:#062c2a;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.eventImage img{object-fit:contain!important;object-position:center center!important}
+@media(max-width:650px){.hero{background-position:57% center}.eventImage{min-height:380px;aspect-ratio:1/1}.eventImage img{object-fit:contain!important}}
