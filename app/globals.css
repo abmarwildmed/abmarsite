@@ -43,3 +43,8 @@ body{font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
 .eventImage{background:#062c2a;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .eventImage img{object-fit:contain!important;object-position:center center!important}
 @media(max-width:650px){.hero{background-position:57% center}.eventImage{min-height:380px;aspect-ratio:1/1}.eventImage img{object-fit:contain!important}}
+
+/* Footer: white background follows logo dimensions, not an oversized panel */
+.footerLogo{display:block;width:180px!important;height:auto!important;max-width:100%;background:#fff;border-radius:4px;padding:0!important;object-fit:contain}
+.footerInner{align-items:center}
+@media(max-width:650px){.footerLogo{width:180px!important;height:auto!important}.footerInner{gap:20px}}
