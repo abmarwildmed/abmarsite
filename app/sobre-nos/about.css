@@ -9,3 +9,5 @@
 .aboutPersonText p{font-size:13px;line-height:1.5;margin:0}
 .aboutPeople:focus-visible{outline:2px solid #ff8628;outline-offset:3px}
 @media(max-width:650px){.aboutPeople{margin-right:-5.5%;padding-right:5.5%;gap:12px}.aboutPerson{flex-basis:min(86vw,370px);min-height:128px}.aboutPortrait{flex-basis:88px;width:88px;height:102px!important}.aboutPersonText h3{font-size:16px!important}}
+
+.carouselControls{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:20px 0 4px;color:#557168;font-size:13px}.carouselControls>div{display:flex;gap:9px}.carouselControls button{width:42px;height:42px;border-radius:50%;border:1px solid #b9ccc5;background:#00382f;color:white;display:flex;align-items:center;justify-content:center;cursor:pointer}.carouselControls button:hover{background:#ff8628;border-color:#ff8628}.peopleCarousel{min-width:0}.peopleCarousel .aboutPeople{margin-top:0!important;scroll-behavior:smooth}.peopleCarousel .aboutPerson{flex-shrink:0!important}@media(max-width:650px){.carouselControls{font-size:12px}.carouselControls button{width:40px;height:40px}}
