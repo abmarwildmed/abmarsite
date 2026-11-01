@@ -57,3 +57,10 @@ body{font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
 
 /* Footer: preserve original ABMAR logo colors against white background */
 .footerLogo{filter:none!important;mix-blend-mode:normal!important;background:#fff!important;border-radius:8px!important;padding:9px!important;box-sizing:content-box!important;width:150px!important;max-width:150px!important;height:auto!important}
+
+/* White footer for the official horizontal ABMAR logo */
+footer{background:#fff!important;color:#203b35!important;border-top:1px solid #e5e9e6!important}
+.footerInner{padding-top:34px!important;padding-bottom:34px!important}
+.footerLogo{filter:none!important;mix-blend-mode:normal!important;background:#fff!important;border-radius:0!important;padding:0!important;box-sizing:border-box!important;width:210px!important;max-width:85vw!important;height:auto!important}
+.abmarSocial a{color:#174337!important;border-color:#bacbc4!important}
+.abmarSocial a:hover{background:#f0f5f2!important}
