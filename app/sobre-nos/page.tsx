@@ -1,3 +1,4 @@
+import './about.css';
 import Image from 'next/image';
 import { ArrowLeft, ArrowRight, Compass, HeartHandshake, Leaf, BookOpen, Users } from 'lucide-react';
 
