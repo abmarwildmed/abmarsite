@@ -48,3 +48,7 @@ body{font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
 .footerLogo{display:block;width:180px!important;height:auto!important;max-width:100%;background:#fff;border-radius:4px;padding:0!important;object-fit:contain}
 .footerInner{align-items:center}
 @media(max-width:650px){.footerLogo{width:180px!important;height:auto!important}.footerInner{gap:20px}}
+
+/* Footer logo: compact, visually remove white bitmap background on dark footer */
+.footerLogo{width:155px!important;height:auto!important;max-width:155px!important;background:transparent!important;border:0!important;border-radius:0!important;padding:0!important;filter:invert(1) hue-rotate(180deg);mix-blend-mode:screen;object-fit:contain!important}
+@media(max-width:650px){.footerLogo{width:155px!important;max-width:155px!important;height:auto!important}.footerInner{align-items:center!important}}
