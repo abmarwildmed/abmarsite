@@ -1,1 +1,11 @@
 .aboutHero{background:#00382f;color:white;padding:90px 5%}.aboutHero h1{font-size:clamp(40px,6vw,76px)}.aboutHero em{color:#ff8628}.aboutIntroGrid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.aboutIntroGrid p{line-height:1.7}.aboutValues{background:#00382f;color:white;padding:40px 0}.aboutValuesGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.aboutValuesGrid>div{display:grid;gap:12px}.aboutPeople{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:30px}.aboutPerson{background:white;border-radius:10px;overflow:hidden}.aboutPortrait{height:200px;background:#d8e8e1;display:flex;align-items:center;justify-content:center;font-size:40px}.aboutPortrait img{width:100%;height:100%;object-fit:cover}.aboutPersonText{padding:16px}.aboutPersonText h3{margin:0 0 8px}.aboutCall{background:#00382f;color:white;padding:70px 0}@media(max-width:750px){.aboutIntroGrid{grid-template-columns:1fr}.aboutValuesGrid,.aboutPeople{grid-template-columns:repeat(2,1fr)}.aboutPortrait{height:150px}}
+/* Compact, swipeable board carousels */
+.aboutPeople{display:flex!important;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;padding:8px 4px 24px;scrollbar-width:thin;scrollbar-color:#9aada7 transparent}
+.aboutPerson{display:flex!important;flex:0 0 clamp(280px,38vw,425px);min-height:144px;align-items:center;scroll-snap-align:start;border:1px solid #e2e9e5;box-shadow:0 5px 20px #002a2310}
+.aboutPortrait{flex:0 0 105px;width:105px;height:120px!important;margin:12px 0 12px 12px;border-radius:8px;overflow:hidden}
+.aboutPortrait span{font-size:28px}
+.aboutPersonText{flex:1;min-width:0;padding:12px 15px!important}
+.aboutPersonText h3{font-size:17px!important;line-height:1.25}
+.aboutPersonText p{font-size:13px;line-height:1.5;margin:0}
+.aboutPeople:focus-visible{outline:2px solid #ff8628;outline-offset:3px}
+@media(max-width:650px){.aboutPeople{margin-right:-5.5%;padding-right:5.5%;gap:12px}.aboutPerson{flex-basis:min(86vw,370px);min-height:128px}.aboutPortrait{flex-basis:88px;width:88px;height:102px!important}.aboutPersonText h3{font-size:16px!important}}
