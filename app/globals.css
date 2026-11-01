@@ -54,3 +54,6 @@ body{font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
 @media(max-width:650px){.footerLogo{width:155px!important;max-width:155px!important;height:auto!important}.footerInner{align-items:center!important}}
 
 .abmarSocial{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px}.abmarSocial a{display:inline-flex;padding:9px 14px;border:1px solid #ffffff66;border-radius:24px;color:#fff;text-decoration:none;font-size:13px;font-weight:700}.abmarSocial a:hover{background:#ffffff22}@media(max-width:650px){.abmarSocial{gap:9px}}
+
+/* Footer: preserve original ABMAR logo colors against white background */
+.footerLogo{filter:none!important;mix-blend-mode:normal!important;background:#fff!important;border-radius:8px!important;padding:9px!important;box-sizing:content-box!important;width:150px!important;max-width:150px!important;height:auto!important}
