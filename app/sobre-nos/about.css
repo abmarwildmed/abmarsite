@@ -11,3 +11,11 @@
 @media(max-width:650px){.aboutPeople{margin-right:-5.5%;padding-right:5.5%;gap:12px}.aboutPerson{flex-basis:min(86vw,370px);min-height:128px}.aboutPortrait{flex-basis:88px;width:88px;height:102px!important}.aboutPersonText h3{font-size:16px!important}}
 
 .carouselControls{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:20px 0 4px;color:#557168;font-size:13px}.carouselControls>div{display:flex;gap:9px}.carouselControls button{width:42px;height:42px;border-radius:50%;border:1px solid #b9ccc5;background:#00382f;color:white;display:flex;align-items:center;justify-content:center;cursor:pointer}.carouselControls button:hover{background:#ff8628;border-color:#ff8628}.peopleCarousel{min-width:0}.peopleCarousel .aboutPeople{margin-top:0!important;scroll-behavior:smooth}.peopleCarousel .aboutPerson{flex-shrink:0!important}@media(max-width:650px){.carouselControls{font-size:12px}.carouselControls button{width:40px;height:40px}}
+
+/* Larger portrait and more room for each mini-CV */
+.peopleCarousel .aboutPerson{flex-basis:clamp(390px,47vw,560px)!important;min-height:194px!important;align-items:center}
+.peopleCarousel .aboutPortrait{flex:0 0 145px!important;width:145px!important;height:166px!important;margin:14px 0 14px 14px!important}
+.peopleCarousel .aboutPersonText{padding:18px 22px!important}
+.peopleCarousel .aboutPersonText h3{font-size:19px!important;margin-bottom:10px}
+.peopleCarousel .aboutPersonText p{font-size:14px!important;line-height:1.6!important}
+@media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(91vw,430px)!important;min-height:170px!important}.peopleCarousel .aboutPortrait{flex:0 0 116px!important;width:116px!important;height:142px!important}.peopleCarousel .aboutPersonText{padding:12px 14px!important}.peopleCarousel .aboutPersonText h3{font-size:16px!important}.peopleCarousel .aboutPersonText p{font-size:12px!important;line-height:1.5!important}}
