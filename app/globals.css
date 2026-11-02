@@ -66,4 +66,4 @@ footer{background:#fff!important;color:#203b35!important;border-top:1px solid #e
 .abmarSocial a:hover{background:#f0f5f2!important}
 
 /* Slightly larger ABMAR header logo on mobile, without affecting desktop */
-@media(max-width:650px){.header .logo{width:180px!important;height:84px!important;max-width:100%;object-fit:contain!important}}
+@media(max-width:650px){.header .logo{width:210px!important;height:100px!important;max-width:100%;object-fit:contain!important}}
