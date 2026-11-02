@@ -67,3 +67,6 @@ footer{background:#fff!important;color:#203b35!important;border-top:1px solid #e
 
 /* Slightly larger ABMAR header logo on mobile, without affecting desktop */
 @media(max-width:650px){.header .logo{width:210px!important;height:100px!important;max-width:100%;object-fit:contain!important}}
+
+/* Keep association CTA background seamless at all viewport sizes */
+.join{background-image:linear-gradient(90deg,rgba(0,47,41,.98) 0%,rgba(0,56,45,.90) 38%,rgba(0,56,45,.28) 100%),url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2200&q=85')!important;background-repeat:no-repeat!important;background-size:cover!important;background-position:center center!important;background-attachment:scroll!important}
