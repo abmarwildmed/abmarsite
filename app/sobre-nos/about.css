@@ -19,3 +19,9 @@
 .peopleCarousel .aboutPersonText h3{font-size:19px!important;margin-bottom:10px}
 .peopleCarousel .aboutPersonText p{font-size:14px!important;line-height:1.6!important}
 @media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(91vw,430px)!important;min-height:170px!important}.peopleCarousel .aboutPortrait{flex:0 0 116px!important;width:116px!important;height:142px!important}.peopleCarousel .aboutPersonText{padding:12px 14px!important}.peopleCarousel .aboutPersonText h3{font-size:16px!important}.peopleCarousel .aboutPersonText p{font-size:12px!important;line-height:1.5!important}}
+
+/* Give director portraits more prominence and frame faces higher */
+.peopleCarousel .aboutPerson{flex-basis:clamp(420px,50vw,590px)!important;min-height:235px!important}
+.peopleCarousel .aboutPortrait{flex:0 0 190px!important;width:190px!important;height:210px!important;margin:12px 0 12px 12px!important}
+.peopleCarousel .aboutPortrait img{object-fit:cover!important;object-position:center 22%!important}
+@media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(94vw,440px)!important;min-height:205px!important}.peopleCarousel .aboutPortrait{flex:0 0 145px!important;width:145px!important;height:185px!important;margin:10px 0 10px 10px!important}}
