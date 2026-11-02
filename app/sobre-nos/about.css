@@ -25,3 +25,10 @@
 .peopleCarousel .aboutPortrait{flex:0 0 190px!important;width:190px!important;height:210px!important;margin:12px 0 12px 12px!important}
 .peopleCarousel .aboutPortrait img{object-fit:cover!important;object-position:center 22%!important}
 @media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(94vw,440px)!important;min-height:205px!important}.peopleCarousel .aboutPortrait{flex:0 0 145px!important;width:145px!important;height:185px!important;margin:10px 0 10px 10px!important}}
+
+/* Larger portraits; hide displayed names while preserving descriptive photo alt text */
+.peopleCarousel .aboutPerson{flex-basis:clamp(460px,52vw,630px)!important;min-height:285px!important}
+.peopleCarousel .aboutPortrait{flex:0 0 235px!important;width:235px!important;height:255px!important;margin:15px 0 15px 15px!important}
+.peopleCarousel .aboutPersonText h3{display:none!important}
+.peopleCarousel .aboutPersonText p{font-size:15px!important;line-height:1.6!important}
+@media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(95vw,460px)!important;min-height:245px!important}.peopleCarousel .aboutPortrait{flex:0 0 170px!important;width:170px!important;height:225px!important;margin:10px 0 10px 10px!important}.peopleCarousel .aboutPersonText p{font-size:13px!important}}
