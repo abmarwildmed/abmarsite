@@ -20,15 +20,10 @@
 .peopleCarousel .aboutPersonText p{font-size:14px!important;line-height:1.6!important}
 @media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(91vw,430px)!important;min-height:170px!important}.peopleCarousel .aboutPortrait{flex:0 0 116px!important;width:116px!important;height:142px!important}.peopleCarousel .aboutPersonText{padding:12px 14px!important}.peopleCarousel .aboutPersonText h3{font-size:16px!important}.peopleCarousel .aboutPersonText p{font-size:12px!important;line-height:1.5!important}}
 
-/* Give director portraits more prominence and frame faces higher */
-.peopleCarousel .aboutPerson{flex-basis:clamp(420px,50vw,590px)!important;min-height:235px!important}
-.peopleCarousel .aboutPortrait{flex:0 0 190px!important;width:190px!important;height:210px!important;margin:12px 0 12px 12px!important}
-.peopleCarousel .aboutPortrait img{object-fit:cover!important;object-position:center 22%!important}
-@media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(94vw,440px)!important;min-height:205px!important}.peopleCarousel .aboutPortrait{flex:0 0 145px!important;width:145px!important;height:185px!important;margin:10px 0 10px 10px!important}}
 
-/* Larger portraits; hide displayed names while preserving descriptive photo alt text */
-.peopleCarousel .aboutPerson{flex-basis:clamp(460px,52vw,630px)!important;min-height:285px!important}
-.peopleCarousel .aboutPortrait{flex:0 0 235px!important;width:235px!important;height:255px!important;margin:15px 0 15px 15px!important}
+/* Compact carousel cards; zoom only the image to crop text printed in source photos */
+.peopleCarousel .aboutPerson{flex-basis:clamp(390px,47vw,560px)!important;min-height:194px!important}
+.peopleCarousel .aboutPortrait{flex:0 0 145px!important;width:145px!important;height:166px!important;margin:14px 0 14px 14px!important;overflow:hidden!important}
+.peopleCarousel .aboutPortrait img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 30%!important;transform:scale(1.32);transform-origin:center 30%}
 .peopleCarousel .aboutPersonText h3{display:none!important}
-.peopleCarousel .aboutPersonText p{font-size:15px!important;line-height:1.6!important}
-@media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(95vw,460px)!important;min-height:245px!important}.peopleCarousel .aboutPortrait{flex:0 0 170px!important;width:170px!important;height:225px!important;margin:10px 0 10px 10px!important}.peopleCarousel .aboutPersonText p{font-size:13px!important}}
+@media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(91vw,430px)!important;min-height:170px!important}.peopleCarousel .aboutPortrait{flex:0 0 116px!important;width:116px!important;height:142px!important;margin:14px 0 14px 14px!important}}
