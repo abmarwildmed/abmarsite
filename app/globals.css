@@ -64,3 +64,6 @@ footer{background:#fff!important;color:#203b35!important;border-top:1px solid #e
 .footerLogo{filter:none!important;mix-blend-mode:normal!important;background:#fff!important;border-radius:0!important;padding:0!important;box-sizing:border-box!important;width:210px!important;max-width:85vw!important;height:auto!important}
 .abmarSocial a{color:#174337!important;border-color:#bacbc4!important}
 .abmarSocial a:hover{background:#f0f5f2!important}
+
+/* Slightly larger ABMAR header logo on mobile, without affecting desktop */
+@media(max-width:650px){.header .logo{width:180px!important;height:84px!important;max-width:100%;object-fit:contain!important}}
