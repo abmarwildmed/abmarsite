@@ -25,7 +25,7 @@
 .peopleCarousel .aboutPerson{flex-basis:clamp(390px,47vw,560px)!important;min-height:194px!important}
 .peopleCarousel .aboutPortrait{flex:0 0 145px!important;width:145px!important;height:166px!important;margin:14px 0 14px 14px!important;overflow:hidden!important}
 .peopleCarousel .aboutPortrait img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 30%!important;transform:scale(1.32);transform-origin:center 30%}
-.peopleCarousel .aboutPersonText h3{display:none!important}
+.peopleCarousel .aboutPersonText h3{display:block!important}
 @media(max-width:650px){.peopleCarousel .aboutPerson{flex-basis:min(91vw,430px)!important;min-height:170px!important}.peopleCarousel .aboutPortrait{flex:0 0 116px!important;width:116px!important;height:142px!important;margin:14px 0 14px 14px!important}}
 
 /* Historical directors have no biographies: display their names below portraits */
