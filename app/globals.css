@@ -84,3 +84,6 @@ footer{background:#fff!important;color:#203b35!important;border-top:1px solid #e
 @keyframes partnersMove{to{transform:translateX(-50%)}}
 @media(max-width:650px){.partnersSection{padding:55px 0}.partnersSet{gap:16px;padding-right:16px}.partnerLogo{width:160px;height:110px;padding:8px}.partnersTrack{animation-duration:32s}}
 @media(prefers-reduced-motion:reduce){.partnersTrack{animation:none}.partnersViewport{overflow-x:auto}.partnersSet:last-child{display:none}}
+
+/* Enlarge Dharma mark within the partners carousel only */
+.partnerLogoDharma img{transform:scale(1.2);transform-origin:center}
