@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+export const metadata: Metadata = { title: 'Sobre nós', description: 'Conheça a ABMAR, sua missão e a diretoria da Associação Brasileira de Medicina de Áreas Remotas.', alternates: { canonical: '/sobre-nos' }, openGraph: { title: 'Sobre nós | ABMAR', description: 'Conheça a ABMAR, sua missão e a diretoria da Associação Brasileira de Medicina de Áreas Remotas.', url: 'https://abmar.org.br/sobre-nos' } };
 import PeopleCarousel from './PeopleCarousel';
 import './about.css';
 import Image from 'next/image';
