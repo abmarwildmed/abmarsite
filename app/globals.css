@@ -70,3 +70,17 @@ footer{background:#fff!important;color:#203b35!important;border-top:1px solid #e
 
 /* Keep association CTA background seamless at all viewport sizes */
 .join{background-image:linear-gradient(90deg,rgba(0,47,41,.98) 0%,rgba(0,56,45,.90) 38%,rgba(0,56,45,.28) 100%),url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2200&q=85')!important;background-repeat:no-repeat!important;background-size:cover!important;background-position:center center!important;background-attachment:scroll!important}
+
+/* ABMAR partners and supporters: continuous, responsive logo carousel */
+.partnersSection{padding:76px 0 70px;background:#fff;overflow:hidden;text-align:center}
+.partnersSection h2{font-size:clamp(30px,4vw,48px);line-height:1.15;margin:12px 0 12px;color:#083b34}
+.partnersSection p{color:#60716e;margin:0 0 34px}
+.partnersViewport{width:100%;overflow:hidden}
+.partnersTrack{display:flex;width:max-content;animation:partnersMove 42s linear infinite;will-change:transform}
+.partnersViewport:hover .partnersTrack,.partnersViewport:focus-within .partnersTrack{animation-play-state:paused}
+.partnersSet{display:flex;flex-shrink:0;align-items:center;gap:38px;padding-right:38px}
+.partnerLogo{width:220px;height:150px;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:white;padding:14px;box-sizing:border-box}
+.partnerLogo img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+@keyframes partnersMove{to{transform:translateX(-50%)}}
+@media(max-width:650px){.partnersSection{padding:55px 0}.partnersSet{gap:16px;padding-right:16px}.partnerLogo{width:160px;height:110px;padding:8px}.partnersTrack{animation-duration:32s}}
+@media(prefers-reduced-motion:reduce){.partnersTrack{animation:none}.partnersViewport{overflow-x:auto}.partnersSet:last-child{display:none}}
