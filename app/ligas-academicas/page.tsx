@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+export const metadata: Metadata = { title: 'Ligas Acadêmicas', description: 'Conheça as ligas acadêmicas vinculadas à ABMAR, os benefícios e os documentos para participação.', alternates: { canonical: '/ligas-academicas' }, openGraph: { title: 'Ligas Acadêmicas | ABMAR', description: 'Conheça as ligas acadêmicas vinculadas à ABMAR, os benefícios e os documentos para participação.', url: 'https://abmar.org.br/ligas-academicas' } };
 import LeagueDirectory from "./LeagueDirectory";
 import Image from 'next/image';
 import {ArrowRight, BookOpen, GraduationCap, Users, CalendarDays, BadgeCheck, FileText, Download, Mail, Compass, Handshake} from 'lucide-react';
